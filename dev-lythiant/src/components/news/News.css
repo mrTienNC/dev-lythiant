@@ -1,6 +1,7 @@
 .timeline-news {
     height: auto;
     float: left;
+    border-bottom: solid 1px gray;
 }
 .buzz-image {
     margin: 0 auto;
@@ -8,4 +9,26 @@
 }
 .buzz-image img {
     margin-top: 1.5em;
+}
+.buzz-content {
+    margin-bottom: 1em;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 25px;
+}
+.buzz-title a:hover {
+    color: currentColor;
+}
+.buzz-title a {
+    font-family: 'Roboto Mono';
+    text-decoration: blink;
+    color: brown;
+    letter-spacing: 1px;
+}
+.buzz-meta-footer {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
 }

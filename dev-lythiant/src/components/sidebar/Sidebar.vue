@@ -21,14 +21,14 @@
         <div class="category-item">
           <div class="items">
             <ul>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
-              <li><a href="">Item Category</a></li>
+              <li><a href="">Redis</a></li>
+              <li><a href="">Elasticsearch</a></li>
+              <li><a href="">Java</a></li>
+              <li><a href="">Apache</a></li>
+              <li><a href="">Nginx</a></li>
+              <li><a href="">Linux</a></li>
+              <li><a href="">Framework</a></li>
+              <li><a href="">Java core</a></li>
             </ul>
           </div>
         </div>
