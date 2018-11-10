@@ -1,0 +1,11 @@
+.timeline-news {
+    height: auto;
+    float: left;
+}
+.buzz-image {
+    margin: 0 auto;
+    text-align: center;
+}
+.buzz-image img {
+    margin-top: 1.5em;
+}
