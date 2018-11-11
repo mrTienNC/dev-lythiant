@@ -13,20 +13,20 @@
         <div class="col-md-11 col-lg-11 col-sm-12 col-xs-12">
           <div class="menu-item">
             <ul>
-              <li><a href="">Trang chủ</a></li>
-              <li><a href="">Java core</a></li>
-              <li><a href="">OOP</a></li>
+              <li><a href="/">Trang chủ</a></li>
+              <li><a href="/">Java core</a></li>
+              <li><a href="/">OOP</a></li>
                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 	Spring 
                 	<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="">Spring Core</a></li>
-                  <li><a href="">Spring MVC</a></li>
-                  <li><a href="">Spring Boot</a></li>
-                  <li><a href="">Spring Security</a></li>
-                  <li><a href="">Spring Hihernate</a></li>
-                  <li><a href="">Spring Data</a></li>
+                  <li><a href="/">Spring Core</a></li>
+                  <li><a href="/">Spring MVC</a></li>
+                  <li><a href="/">Spring Boot</a></li>
+                  <li><a href="/">Spring Security</a></li>
+                  <li><a href="/">Spring Hihernate</a></li>
+                  <li><a href="/">Spring Data</a></li>
                 </ul>
               </li>
               <li><a href="">Hibernate</a></li>
@@ -43,7 +43,7 @@
               </li>
               <li><a href="">Design pattern</a></li>
               <li><a href="">MongoDB</a></li>
-              <li><a href="">About</a></li>
+              <li><a href="/about">About</a></li>
             </ul>
           </div>
         </div>

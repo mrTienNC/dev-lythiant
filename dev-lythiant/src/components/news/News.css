@@ -2,6 +2,7 @@
     height: auto;
     float: left;
     border-bottom: solid 1px gray;
+    margin-bottom: 1em;
 }
 .buzz-image {
     margin: 0 auto;
@@ -19,16 +20,22 @@
 }
 .buzz-title a:hover {
     color: currentColor;
+    text-decoration: none;
 }
 .buzz-title a {
     font-family: 'Roboto Mono';
     text-decoration: blink;
-    color: brown;
     letter-spacing: 1px;
+    color: brown;
 }
 .buzz-meta-footer {
     font-family: 'Open Sans';
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 30px;
+}
+.buzz-content a {
+    text-decoration: blink;
+    font-size: 17px;
+    float: right;
 }
