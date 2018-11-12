@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row main-content">
         <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-          <News />
+          <!-- <Timeline /> -->
+          <Buzz/>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
           <Sidebar />
@@ -13,22 +14,21 @@
   </div>
 </template>
 <script>
-import News from "../news/News.vue";
+import Timeline from "../timeline/Timeline.vue";
 import Sidebar from "../sidebar/Sidebar.vue";
+import Buzz from "../buzz/Buzz.vue";
 
 export default {
-  name: 'Content',
+  name: "Content",
   components: {
-    News,
-    Sidebar
+    Timeline,
+    Sidebar,
+    Buzz
   },
   data() {
-    return {
-
-    }
+    return {};
   }
 };
-
 </script>
 <style scoped>
 @import "./Content.css";

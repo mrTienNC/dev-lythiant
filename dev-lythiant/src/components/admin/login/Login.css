@@ -1,0 +1,23 @@
+.form-login {
+  width: 40%;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px black;
+}
+.form-login {
+  margin: 0 auto;
+  margin-top: 15%;
+  line-height: 30px;
+}
+.form-login form {
+  padding: 10%;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px black;
+  margin: 0 auto;
+  border-bottom-left-radius: 15%;
+  border-top-right-radius: 15%;
+  background: linear-gradient(rgba(35, 43, 85, 0.75), rgba(35, 43, 85, 0.95)),
+    url(https://dl.dropboxusercontent.com/u/22006283/preview/codepen/clouds-cloudy-forest-mountain.jpg)
+      no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}

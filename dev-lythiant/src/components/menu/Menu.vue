@@ -14,11 +14,13 @@
           <div class="menu-item">
             <ul>
               <li><a href="/">Trang chủ</a></li>
-              <li><a href="/">Java core</a></li>
+              <li>
+                <a href="/">Java core</a>
+              </li>
               <li><a href="/">OOP</a></li>
                <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                	Spring 
+                	Spring
                 	<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="/">Spring Core</a></li>
@@ -32,7 +34,7 @@
               <li><a href="">Hibernate</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  Javascript 
+                  Javascript
                   <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="">Core JS</a></li>
@@ -58,9 +60,7 @@ export default {
     return {};
   }
 };
-
 </script>
 <style scoped>
 @import "./Menu.css";
-
 </style>

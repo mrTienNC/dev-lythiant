@@ -14,7 +14,7 @@
             <div class="buzz-timeline">
               <div class="buzz-title">
                 <h1>
-              <a href="">What does the fox say !</a>              
+              <a href="">What does the fox say !</a>
             </h1>
                 <div class="buzz-meta-title">
                   <p>
@@ -46,16 +46,12 @@
 </template>
 <script>
 export default {
-  name: 'News',
+  name: "News",
   data() {
-    return {
-
-    }
+    return {};
   }
 };
-
 </script>
 <style scoped>
-@import "./News.css";
-
+@import "./Timeline.css";
 </style>
