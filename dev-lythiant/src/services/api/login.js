@@ -1,6 +1,5 @@
-/* eslint-disable */
 const axios = require("axios");
-const cookie = require("./cookie");
+const cookie = require("../cookie");
 
 const api = "http://127.0.0.1:8080/";
 
@@ -14,15 +13,15 @@ function getHeaders() {
   return headers;
 }
 
-module.export = {
-  getPost(url, params) {
-    return axios
-      .get(api + url, { header: getHeaders(), params })
-      .then(response => this.checkResponse(response));
-  },
-  addPost(url, params) {
+module.exports = {
+  login(url, params) {
     return axios
       .post(api + url, { header: getHeaders(), params })
+      .then(response => this.checkResponse(response));
+  },
+  logout(url, params) {
+    return axios
+      .delete(api + url, { header: getHeaders(), params })
       .then(response => this.checkResponse(response));
   },
   checkResponse(response) {

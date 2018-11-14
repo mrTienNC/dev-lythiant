@@ -1,40 +1,36 @@
 div#dashboard {
   position: relative;
 }
-.dashboard-menu div {
-  display: block;
-}
-.dashboard-menu-header {
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-  padding: 2.5em 0;
-  width: 100%;
-}
-.dashboard-menu-header h3 {
-  border-top: 1px solid #99999957;
-  padding: 15px 0;
-  border-bottom: 1px solid #99999957;
-}
-.dashboard-menu-item ul {
+.col-md-2.col-lg-2.col-sm-12.col-xs-12 {
   padding: 0;
-  text-align: center;
-  margin: 0 auto;
 }
-.dashboard-menu-item ul li {
-  text-align: center;
+.col-md-10.col-lg-10.col-sm-12.col-xs-12 {
+  padding: 0;
+}
+.dashboard-menu {
+  height: -webkit-fill-available;
+  /* background: url("../../../assets/dashboard.jpeg") no-repeat; */
+  background-size: cover;
+  background: currentColor;
+}
+.header {
+  width: -webkit-fill-available;
+  background: currentColor;
+  height: 30px;
+}
+.header-icon ul li {
   list-style: none;
-  margin: 0 auto;
-  padding: 10px 0;
-  font-size: 20px;
-}
-.dashboard-menu-item ul li a {
-  text-decoration: blink;
-}
-.dashboard-menu-item ul li:hover {
-  background: #80808061;
-  transition: 0.5s;
-}
-.dashboard-menu-item ul li:hover a {
+  display: inline-block;
   color: #fff;
+  line-height: 30px;
+  width: 50px;
+  margin-left: 20px;
+}
+.header-icon ul li a {
+  color: #fff;
+  padding: 5px;
+}
+.header-icon {
+  float: right;
+  padding-right: 10px;
 }

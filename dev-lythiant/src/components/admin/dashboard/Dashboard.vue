@@ -1,40 +1,35 @@
 <template>
     <div class="dashboard" id="dashboard">
-            <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-                <div class="dashboard-menu">
-                        <div class="dashboard-menu-header">
-                            <img src="../../../assets/logo.png" width="50" height="50" alt="Logo" class="img img-responsesive">
-                            <h3>Dashboard</h3>
-                        </div>
-                        <div class="dashboard-menu-item">
-                            <ul>
-                                <li>
-                                    <a href="#">Buzz</a>
-                                </li>
-                                <li>
-                                    <a href="#">Statistic</a>
-                                </li>
-                                <li>
-                                    <a href="#">Activity</a>
-                                </li>
-                                <li>
-                                    <a href="#">Activity</a>
-                                </li>
-                                <li>
-                                    <a href="#">Activity</a>
-                                </li>
-                            </ul>
-                        </div>
-                </div>
+        <div class="header">
+            <div class="header-icon">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fas fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-shield-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-             
-            </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12">
+            <Menu />
+        </div>
+        <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
+            
+        </div>
     </div>
 </template>
 <script>
+import Menu from "../menu/Menu";
 export default {
   name: "Dashboard",
+  components: {
+    Menu
+  },
   data() {
     return {};
   }
