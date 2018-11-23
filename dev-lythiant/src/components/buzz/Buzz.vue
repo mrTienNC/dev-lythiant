@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-md-10 col-lg-10 col-sm-12 col-xs-12">
                   <div class="comment-text">
-                  
+                    <vue-editor v-model="content"></vue-editor>
                   </div>
                 </div>
               </div>
@@ -67,10 +67,16 @@
     </div>
 </template>
 <script>
+import { VueEditor } from "vue2-editor";
 export default {
   name: "Buzz",
+  components: {
+    VueEditor
+  },
   data() {
-    return {};
+    return {
+      content: ""
+    };
   },
   methods() {}
 };

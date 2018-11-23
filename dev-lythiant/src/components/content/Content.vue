@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row main-content">
         <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
-          <!-- <Timeline /> -->
-          <Buzz/>
+          <router-view name="timeline"></router-view>
+          <router-view name="buzz"></router-view>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
           <Sidebar />

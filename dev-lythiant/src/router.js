@@ -5,7 +5,7 @@ import Buzz from "./components/buzz/Buzz.vue";
 import Profile from "./components/profile/Profile.vue";
 import Login from "./components/admin/login/Login.vue";
 import Dashboard from "./components/admin/dashboard/Dashboard.vue";
-
+import Content from "./components/content/Content.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -18,9 +18,12 @@ export default new Router({
       component: Home,
       children: [
         {
-          path: "/buzz",
-          name: "buzz",
-          component: Buzz
+          path: "/timeline",
+          name: "timeline",
+          components: {
+            default: Content,
+            buzz: Buzz
+          }
         }
       ]
     },

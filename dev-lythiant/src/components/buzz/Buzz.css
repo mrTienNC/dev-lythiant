@@ -18,3 +18,16 @@
 .form-comment {
   width: 50%;
 }
+img.img.img-responsesive.img-circle {
+  width: 75px;
+  height: 75px;
+}
+.comment-infor {
+  height: 200px;
+  line-height: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+.comment-list {
+  padding-top: 120px;
+}
